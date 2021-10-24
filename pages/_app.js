@@ -1,7 +1,9 @@
+import { appWithTranslation } from 'next-i18next'
 import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/layouts/main'
 import theme from '../lib/theme'
 import Fonts from '../components/fonts'
+
 const Website = ({ Component, pageProps, router }) => {
   return (
     <ChakraProvider theme={theme}>
@@ -13,4 +15,4 @@ const Website = ({ Component, pageProps, router }) => {
   )
 }
 
-export default Website
+export default appWithTranslation(Website)

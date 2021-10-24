@@ -28,6 +28,7 @@ const Logo = () => {
             fontFamily="M PLUS Rounded 1c"
             fontWeight="bold"
             ml={3}
+            textAlign="left"
           >
             Arnold Restrepo
           </Text>
