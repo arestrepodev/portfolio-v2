@@ -14,5 +14,13 @@
     "intro": "I'm a frontend developer, multimedia producer and musician. I've a 4 years old experience in diferents fields from web development and technologies like: HTML5, CSS3, JavaScript, ECMAScript, React.js, Next.js and a11y.",
     "passionate": "I'm a passionate about technology and the power it has over people, for this reason, I think in the continuous learning as philosophy, the creation of exclusive experiences to the users and the world transformation through technology.",
     "current-job": "Currently I'm working as a Frontend Developer at Addi with thechnologias like React, Next.js and React Native."
+  },
+  "bio": {
+    "born": "Born in Bogotá, Colombia",
+    "career": "Graduated as a multimedia producer",
+    "ondigital-job": "My first job was in Ondigital, digital marketing agency as a frontend dev ",
+    "quick-job": "Worked in Quick, logistic enterprise as a frontend dev",
+    "addi-job": "Currently, I work in ADDI, the first fintech BuyNow, PayLater, from Latam as a software frontend engineer",
+    "current-title": "to Present"
   }
 }

@@ -84,23 +84,23 @@ const Page = () => {
         </Heading>
         <BioSection>
           <BioYear>1997</BioYear>
-          Naci en Bogotá, Colombia
+          {t('bio.born')}
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Me gradué como Tecnólogo en Producción Multimedia
+          {t('bio.career')}
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Mi primer trabajo fue en Ondigital, Agencia de Marketing Digital
+          {t('bio.ondigital-job')}
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Trabaje en Quick, startup de logística
+          {t('bio.quick-job')}
         </BioSection>
         <BioSection>
-          <BioYear>2021 - Presente</BioYear>
-          Mi empleo actual en Addi, fintech
+          <BioYear>2021 {t('bio.current-title')}</BioYear>
+          {t('bio.addi-job')}
         </BioSection>
       </Section>
     </Container>
