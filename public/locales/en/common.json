@@ -1,5 +1,18 @@
 {
   "common": {
-    "intro": "Hello I'am a software frontend developer based in Colombia."
+    "intro": "Hello I'am a software frontend developer based in Colombia.",
+    "about-title": "About me",
+    "bio-title": "Bio",
+    "portfolio-button": "My works"
+  },
+  "navbar": {
+    "about": "About",
+    "works": "Works",
+    "posts": "Posts"
+  },
+  "about-me": {
+    "intro": "I'm a frontend developer, multimedia producer and musician. I've a 4 years old experience in diferents fields from web development and technologies like: HTML5, CSS3, JavaScript, ECMAScript, React.js, Next.js and a11y.",
+    "passionate": "I'm a passionate about technology and the power it has over people, for this reason, I think in the continuous learning as philosophy, the creation of exclusive experiences to the users and the world transformation through technology.",
+    "current-job": "Currently I'm working as a Frontend Developer at Addi with thechnologias like React, Next.js and React Native."
   }
 }

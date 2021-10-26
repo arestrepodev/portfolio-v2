@@ -1,5 +1,6 @@
 import Logo from './logo'
 import NextLink from 'next/link'
+import { useTranslation } from 'next-i18next'
 import {
   Container,
   Box,
@@ -35,6 +36,7 @@ const LinkItem = ({ href, path, children }) => {
 
 const Navbar = props => {
   const { path } = props
+  const { t } = useTranslation()
   return (
     <Box
       position="fixed"
@@ -69,7 +71,7 @@ const Navbar = props => {
           mt={{ base: 4, nmd: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            {t('navbar.works')}
           </LinkItem>
           <LinkItem href="/posts" path={path}>
             Posts
@@ -87,13 +89,13 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>{t('navbar.about')}</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link}>{t('navbar.works')}</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                  <MenuItem as={Link}>{t('navbar.posts')}</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>

@@ -1,5 +1,18 @@
 {
   "common": {
-    "intro": "Hola, soy un software frontend engineer colombiano"
+    "intro": "Hola, soy un software frontend engineer colombiano",
+    "about-title": "Acerca de Mi",
+    "bio-title": "Trayectoría",
+    "portfolio-button": "Mis proyectos"
+  },
+  "navbar": {
+    "about": "Acerca",
+    "works": "Proyectos",
+    "posts": "Posts"
+  },
+  "about-me": {
+    "intro": "Soy Frontend Developer y Productor Multimedia. Tengo 4 años de experiencia en las diversas etapas del desarrollo web y en tecnologías como: HTML, CSS3, JavaScript, ECMAScript, React.js y Accesibilidad Web.",
+    "passionate": "Me apasiona la tecnología y el poder que tiene sobre las personas, por ello creo en el aprendizaje continuo como filosofía, la creación de experiencias únicas para el usuario y en la transformación del mundo por medio de la creación de tecnología.",
+    "current-job": "Actualmente trabajo en ADDI usando diferentes tecnologías como: React.js, Next.js, React Native y Redux."
   }
 }
