@@ -15,6 +15,7 @@ import {
 import Paragraph from '../components/paragraph'
 import Section from '../components/Section'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
   const { t } = useTranslation()
@@ -81,6 +82,26 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           {t('common.bio-title')}
         </Heading>
+        <BioSection>
+          <BioYear>1997</BioYear>
+          Naci en Bogotá, Colombia
+        </BioSection>
+        <BioSection>
+          <BioYear>2016</BioYear>
+          Me gradué como Tecnólogo en Producción Multimedia
+        </BioSection>
+        <BioSection>
+          <BioYear>2017</BioYear>
+          Mi primer trabajo fue en Ondigital, Agencia de Marketing Digital
+        </BioSection>
+        <BioSection>
+          <BioYear>2019</BioYear>
+          Trabaje en Quick, startup de logística
+        </BioSection>
+        <BioSection>
+          <BioYear>2021 - Presente</BioYear>
+          Mi empleo actual en Addi, fintech
+        </BioSection>
       </Section>
     </Container>
   )
