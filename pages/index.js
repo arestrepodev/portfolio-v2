@@ -13,7 +13,7 @@ import {
   Button
 } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
-import Section from '../components/Section'
+import { Section } from '../components/section'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 
