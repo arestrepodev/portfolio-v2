@@ -1,5 +1,6 @@
 import Logo from './logo'
 import NextLink from 'next/link'
+import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 import {
   Container,
@@ -13,7 +14,8 @@ import {
   MenuList,
   MenuButton,
   IconButton,
-  useColorModeValue
+  useColorModeValue,
+  Button
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
@@ -37,6 +39,7 @@ const LinkItem = ({ href, path, children }) => {
 const Navbar = props => {
   const { path } = props
   const { t } = useTranslation()
+  const router = useRouter()
   return (
     <Box
       position="fixed"
@@ -76,6 +79,11 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
+          <NextLink href="/" locale={router.locale === 'es' ? './en' : './es'}>
+            <Button colorScheme="teal" size="xs">
+              {router.locale === 'es' ? 'EN' : 'ES'}
+            </Button>
+          </NextLink>
         </Stack>
         <Box as="article" flex={1} align="right">
           <ThemeToggleButton />
@@ -101,6 +109,7 @@ const Navbar = props => {
             </Menu>
           </Box>
         </Box>
+        <Box as="article" align="right"></Box>
       </Container>
     </Box>
   )

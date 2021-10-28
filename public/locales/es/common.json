@@ -22,5 +22,22 @@
     "quick-job": "Trabaje en Quick, empresa de logística as a frontend dev",
     "addi-job": "Actualmente trabajo en Addi, fintech (BuyNow PayLater), como frontend engineer",
     "current-title": "- Presente"
+  },
+  "works": {
+    "title": "Proyectos",
+    "description": "Un pequeño compilado de algunos proyectos en los que he tenido retos personales y profesionales.",
+    "petgram": {
+      "title": "Petgram | Petlife",
+      "copy": "La red social favorita de nuestras mascotas. Hecha con React.js y GraphQL."
+    },
+    "servientrega": {
+      "title": "Servientrega International",
+      "copy": "Rediseñar la UX y mejorar la Arquitectura de Información fueron los objetivos al hacer este proyecto."
+    }
+  },
+  "404": {
+    "title": "404 | Página no encontrada",
+    "message": "La página que buscas no esta disponible",
+    "button": "Ir al inicio"
   }
 }

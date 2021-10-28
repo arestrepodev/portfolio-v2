@@ -1,6 +1,6 @@
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { SimpleGrid, Divider, Container, Heading, Box } from '@chakra-ui/react'
+import { SimpleGrid, Container, Heading, Box } from '@chakra-ui/react'
 import { Section } from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
@@ -8,33 +8,33 @@ import Layout from '../components/layouts/article'
 import petgram from '../public/images/works/petgram.jpeg'
 import servientregaInternational from '../public/images/works/servientrega-international-portafolio.jpeg'
 const Works = () => {
+  const { t } = useTranslation()
   return (
     <Layout>
       <Container maxW="container.xl">
         <Heading as="h3" fontSize={20} mb={4}>
-          Works
+          {t('works.title')}
         </Heading>
         <Box mb={6}>
-          <p>
-            A litle compilation of some importants, challenging, personals and
-            professionals works, which I've made in my career.
-          </p>
+          <p>{t('works.description')}</p>
         </Box>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id={1} title="Petgram - PetLife" thumbnail={petgram}>
-              La red social favorita de nuestras mascotas. Hecha con React.js y
-              GraphQL.
+            <WorkGridItem
+              id={1}
+              title={t('works.petgram.title')}
+              thumbnail={petgram}
+            >
+              {t('works.petgram.copy')}
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem
               id={1}
-              title="Servientrega International"
+              title={t('works.servientrega.title')}
               thumbnail={servientregaInternational}
             >
-              Rediseñar la UX y mejorar la Arquitectura de Información fueron
-              los objetivos al hacer este proyecto.
+              {t('works.servientrega.copy')}
             </WorkGridItem>
           </Section>
         </SimpleGrid>

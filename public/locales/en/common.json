@@ -22,5 +22,22 @@
     "quick-job": "Worked in Quick, logistic enterprise as a frontend dev",
     "addi-job": "Currently, I work in ADDI, the first fintech BuyNow, PayLater, from Latam as a software frontend engineer",
     "current-title": "to Present"
+  },
+  "works": {
+    "title": "Works",
+    "description": "A litle compilation of some importants, challenging, personals and professionals works, which I've made in my career.",
+    "petgram": {
+      "title": "Petgram | Petlife",
+      "copy": "The favorite social media of our pets. Made with React.js and GraphQL"
+    },
+    "servientrega": {
+      "title": "Servientrega International",
+      "copy": "Redesign the UX and improve the Architecture Information were the principal objetives behind this project"
+    }
+  },
+  "404": {
+    "title": "404 | Not Found",
+    "message": "The page you're find don't exist",
+    "button": "Go to Home"
   }
 }
