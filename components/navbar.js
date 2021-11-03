@@ -105,6 +105,17 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>{t('navbar.posts')}</MenuItem>
                 </NextLink>
+                <NextLink
+                  href="/"
+                  locale={router.locale === 'es' ? 'en' : 'es'}
+                  passHref
+                >
+                  <MenuItem as={Link}>
+                    <Button colorScheme="teal" size="sm">
+                      {router.locale === 'es' ? 'English' : 'Español'}
+                    </Button>
+                  </MenuItem>
+                </NextLink>
               </MenuList>
             </Menu>
           </Box>
