@@ -35,6 +35,23 @@
       "copy": "Redesign the UX and improve the Architecture Information were the principal objetives behind this project"
     }
   },
+  "skills": {
+    "soft": {
+      "comunication": "Asynchronous communication",
+      "adapt": "Adaptation",
+      "teamwork": "Teamwork",
+      "learning": "Continuous learning",
+      "resilience": "Resilience"
+    },
+    "hard": {
+      "basics": "HTML5, CSS3  y JavaScript",
+      "next-react": "React.js y Next.js",
+      "css": "CSS3, Styled Components, PostCSS",
+      "control-version": "Git",
+      "fundamentals": "Architectures: Hexagonal, DDD, Clean, Base",
+      "practices": "Clean Code, React Patterns, SOLID"
+    }
+  },
   "404": {
     "title": "404 | Not Found",
     "message": "The page you're find don't exist",

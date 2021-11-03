@@ -10,7 +10,10 @@ import {
   Text,
   Link,
   useColorModeValue,
-  Button
+  Button,
+  SimpleGrid,
+  UnorderedList,
+  ListItem
 } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
 import { Section } from '../components/section'
@@ -65,6 +68,7 @@ const Page = () => {
             />
           </Box>
         </Box>
+        {/* About Me Section */}
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             {t('common.about-title')}
@@ -80,6 +84,7 @@ const Page = () => {
             </NextLink>
           </Box>
         </Section>
+        {/* Bio Section */}
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
             {t('common.bio-title')}
@@ -104,6 +109,36 @@ const Page = () => {
             <BioYear>2021 {t('bio.current-title')}</BioYear>
             {t('bio.addi-job')}
           </BioSection>
+        </Section>
+        {/* Skills Section */}
+        <Section delay={0.3}>
+          <SimpleGrid columns={{ sm: 1, md: 2 }}>
+            <Box mb={2} as="article">
+              <Heading as="h4" variant="section-title">
+                Soft Skills
+              </Heading>
+              <UnorderedList>
+                <ListItem>{t('skills.soft.comunication')}</ListItem>
+                <ListItem>{t('skills.soft.adapt')}</ListItem>
+                <ListItem>{t('skills.soft.teamwork')}</ListItem>
+                <ListItem>{t('skills.soft.learning')}</ListItem>
+                <ListItem>{t('skills.soft.resilience')}</ListItem>
+              </UnorderedList>
+            </Box>
+            <Box mb={2} as="article">
+              <Heading as="h4" variant="section-title">
+                Hard Skills
+              </Heading>
+              <UnorderedList>
+                <ListItem>{t('skills.hard.basics')}</ListItem>
+                <ListItem>{t('skills.hard.next-react')}</ListItem>
+                <ListItem>{t('skills.hard.css')}</ListItem>
+                <ListItem>{t('skills.hard.control-version')}</ListItem>
+                <ListItem>{t('skills.hard.fundamentals')}</ListItem>
+                <ListItem>{t('skills.hard.practices')}</ListItem>
+              </UnorderedList>
+            </Box>
+          </SimpleGrid>
         </Section>
       </Container>
     </Layout>

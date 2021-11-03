@@ -35,6 +35,23 @@
       "copy": "Rediseñar la UX y mejorar la Arquitectura de Información fueron los objetivos al hacer este proyecto."
     }
   },
+  "skills": {
+    "soft": {
+      "comunication": "Comunicación asíncrona",
+      "adapt": "Adaptación",
+      "teamwork": "Trabajo en equipo",
+      "learning": "Aprendizaje continuo",
+      "resilience": "Resiliencia"
+    },
+    "hard": {
+      "basics": "HTML5, CSS3  y JavaScript",
+      "next-react": "React.js y Next.js",
+      "css": "CSS3, Styled Components, PostCSS",
+      "control-version": "Git",
+      "fundamentals": "Arquitecturas: Hexagonal, DDD, Clean, Base",
+      "practices": "Clean Code, React Patterns, SOLID"
+    }
+  },
   "404": {
     "title": "404 | Página no encontrada",
     "message": "La página que buscas no esta disponible",

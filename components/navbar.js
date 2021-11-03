@@ -79,7 +79,7 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <NextLink href="/" locale={router.locale === 'es' ? './en' : './es'}>
+          <NextLink href="/" locale={router.locale === 'es' ? 'en' : 'es'}>
             <Button colorScheme="teal" size="xs">
               {router.locale === 'es' ? 'EN' : 'ES'}
             </Button>
