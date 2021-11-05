@@ -12,7 +12,7 @@ const work = () => {
     <Layout>
       <Container maxW="container.xl">
         <Title>
-          Petgram <Badge>2017</Badge>
+          Petgram <Badge>2018</Badge>
         </Title>
         <P>{t('petgram.copy')}</P>
         <P>{t('petgram.description')}</P>
@@ -26,6 +26,12 @@ const work = () => {
           <ListItem>
             <Meta>Stack</Meta>
             <span>React.js, Graph.ql, Styled Components, Now.js</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Source</Meta>
+            <Link href="https://github.com/ArnoldRestrepo/petgram" isExternal>
+              https://github.com/ArnoldRestrepo/petgram
+            </Link>
           </ListItem>
         </List>
         <WorkImage src="/images/works/petgram-detail.jpeg" alt="Petgram" />
