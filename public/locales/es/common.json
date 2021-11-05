@@ -56,5 +56,13 @@
     "title": "404 | Página no encontrada",
     "message": "La página que buscas no esta disponible",
     "button": "Ir al inicio"
+  },
+  "petgram": {
+    "copy": "Petgram es la red social para mascotas, basada en Instagram",
+    "description": "Aplicación para ver las mejores fotos de mascotas. Hecha en React.js y GraphQL. El deploy se realizó en Zeit con now.js, usando los nuevos conceptos de HOOKS, construí funciones para reutilizar características como: Local Storage, Mutaciones en GrapQL, Lazy Loading - Scroll, entre otras, además de soporte offline."
+  },
+  "servientrega": {
+    "copy": "Create the CMS for this logistic company",
+    "description": "Rediseñar la Experiencia de Usuario y mejorar la Arquitectura de Información fueron los objetivos principales para mejorar la web de Servientrega International. Usamos React.js como librería de interfaz y Graph.ql como el gestor para la comunicación con el backend."
   }
 }

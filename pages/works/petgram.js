@@ -1,24 +1,21 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { useTranslation } from 'next-i18next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const work = () => {
+  const { t } = useTranslation()
   return (
     <Layout>
       <Container maxW="container.xl">
         <Title>
           Petgram <Badge>2017</Badge>
         </Title>
-        <P>Petgram is a social network for pets. It is a clone of Instagram</P>
-        <P>
-          Aplicación para ver las mejores fotos de mascotas. Hecha en React.js y
-          GraphQL. El deploy se realizó en Zeit con now.js, usando los nuevos
-          conceptos de HOOKS, construí funciones para reutilizar características
-          como: Local Storage, Mutaciones en GrapQL, Lazy Loading - Scroll,
-          entre otras, además de soporte offline.
-        </P>
+        <P>{t('petgram.copy')}</P>
+        <P>{t('petgram.description')}</P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Link</Meta>
@@ -31,10 +28,16 @@ const work = () => {
             <span>React.js, Graph.ql, Styled Components, Now.js</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/inkdrop_01.png" alt="Petgram" />
+        <WorkImage src="/images/works/petgram-detail.jpeg" alt="Petgram" />
       </Container>
     </Layout>
   )
 }
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ['common']))
+  }
+})
 
 export default work

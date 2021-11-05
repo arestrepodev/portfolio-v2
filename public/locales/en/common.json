@@ -56,5 +56,13 @@
     "title": "404 | Not Found",
     "message": "The page you're find don't exist",
     "button": "Go to Home"
+  },
+  "petgram": {
+    "copy": "Petgram is a social network for pets. It's a clone of Instagram",
+    "description": " The best App for show the best pet pictures. Made in React.js, Graph.ql. The deploy was made with Zeit.js, here I applied concepts like: Hooks, Local Storage, Lazy Loading, Grapql Mutations and offline support."
+  },
+  "servientrega": {
+    "copy": "Logistic company CMS",
+    "description": "Redesign the UX and improve the Architecture Information were the principal objetives behind this project. We used WordPres as CMS, React.js as UI library for create the custome theme and Graph.ql for the backend communication"
   }
 }

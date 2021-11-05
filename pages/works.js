@@ -6,7 +6,8 @@ import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 // Note: Import Portfolio images here
 import petgram from '../public/images/works/petgram.jpeg'
-import servientregaInternational from '../public/images/works/servientrega-international-portafolio.jpeg'
+import servientrega from '../public/images/works/servientrega-international-portafolio.jpeg'
+
 const Works = () => {
   const { t } = useTranslation()
   return (
@@ -33,7 +34,7 @@ const Works = () => {
             <WorkGridItem
               id="servientrega"
               title={t('works.servientrega.title')}
-              thumbnail={servientregaInternational}
+              thumbnail={servientrega}
             >
               {t('works.servientrega.copy')}
             </WorkGridItem>
@@ -60,7 +61,7 @@ const Works = () => {
             <WorkGridItem
               id="servientrega"
               title={t('works.servientrega.title')}
-              thumbnail={servientregaInternational}
+              thumbnail={servientrega}
             >
               {t('works.servientrega.copy')}
             </WorkGridItem>
