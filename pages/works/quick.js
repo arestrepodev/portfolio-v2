@@ -1,4 +1,11 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import {
+  Container,
+  Badge,
+  Link,
+  List,
+  ListItem,
+  SimpleGrid
+} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
@@ -12,29 +19,36 @@ const work = () => {
     <Layout>
       <Container maxW="container.xl" pt={3}>
         <Title>
-          Petgram <Badge>2018</Badge>
+          Quick <Badge>2019</Badge>
         </Title>
-        <P>{t('petgram.copy')}</P>
-        <P>{t('petgram.description')}</P>
+        <P>{t('quick.copy')}</P>
+        <P>{t('quick.description')}</P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Link</Meta>
-            <Link href="https://petgram-ol261r64c.now.sh/" isExternal>
-              https://petgram-ol261r64c.now.sh/
+            <Link href="https://go.quick.com.co/" isExternal>
+              https://go.quick.com.co/
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React.js, Graph.ql, Styled Components, Now.js</span>
-          </ListItem>
-          <ListItem>
-            <Meta>Source</Meta>
-            <Link href="https://github.com/ArnoldRestrepo/petgram" isExternal>
-              https://github.com/ArnoldRestrepo/petgram
-            </Link>
+            <span>React.js, Redux, Storybook</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/petgram-detail.jpeg" alt="Petgram" />
+        <WorkImage
+          src="/images/works/quick-detail.png"
+          alt="Quick Detail One"
+        />
+        <SimpleGrid columns={{ md: 2, sm: 1 }} gap={{ md: 3, sm: 1 }}>
+          <WorkImage
+            src="/images/works/quick-detail-2.png"
+            alt="Quick Detail Two"
+          />
+          <WorkImage
+            src="/images/works/quick-detail-3.png"
+            alt="Quick Detail Three"
+          />
+        </SimpleGrid>
       </Container>
     </Layout>
   )

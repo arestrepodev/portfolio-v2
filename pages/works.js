@@ -7,6 +7,8 @@ import Layout from '../components/layouts/article'
 // Note: Import Portfolio images here
 import petgram from '../public/images/works/petgram.jpeg'
 import servientrega from '../public/images/works/servientrega-international-portafolio.jpeg'
+import quick from '../public/images/works/quick-thumbnail.jpeg'
+import addi from '../public/images/works/addi-thumbnail.png'
 
 const Works = () => {
   const { t } = useTranslation()
@@ -41,29 +43,29 @@ const Works = () => {
           </Section>
         </SimpleGrid>
         <Heading as="h3" fontSize={20} mb={3} mt={6}>
-          Colaboraciones
+          {t('collaborations.title')}
         </Heading>
         <Divider mb={3} />
         <Box mb={6}>
-          <p>{t('works.description')}</p>
+          <p>{t('collaborations.description')}</p>
         </Box>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="petgram"
-              title={t('works.petgram.title')}
-              thumbnail={petgram}
+              id="quick"
+              title={t('collaborations.quick.title')}
+              thumbnail={quick}
             >
-              {t('works.petgram.copy')}
+              {t('collaborations.quick.copy')}
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem
-              id="servientrega"
-              title={t('works.servientrega.title')}
-              thumbnail={servientrega}
+              id="addi"
+              title={t('collaborations.addi.title')}
+              thumbnail={addi}
             >
-              {t('works.servientrega.copy')}
+              {t('collaborations.addi.copy')}
             </WorkGridItem>
           </Section>
         </SimpleGrid>

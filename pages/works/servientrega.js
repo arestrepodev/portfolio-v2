@@ -10,7 +10,7 @@ const work = () => {
   const { t } = useTranslation()
   return (
     <Layout>
-      <Container maxW="container.xl">
+      <Container maxW="container.xl" pt={3}>
         <Title>
           Servientrega <Badge>2017</Badge>
         </Title>

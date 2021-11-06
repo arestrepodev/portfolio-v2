@@ -19,8 +19,8 @@
     "born": "Soy de Bogotá, Colombia",
     "career": "Me gradué como Tecnólogo en Producción Multimedia",
     "ondigital-job": "Mi primer trabajo fue en Ondigital, Agencia de Marketing Digital",
-    "quick-job": "Trabaje en Quick, empresa de logística as a frontend dev",
-    "addi-job": "Actualmente trabajo en Addi, fintech (BuyNow PayLater), como frontend engineer",
+    "quick-job": "Trabaje en Quick, empresa de logística como Frontend Developer",
+    "addi-job": "Actualmente trabajo en Addi, fintech (BuyNow PayLater), como Software Frontend Engineer",
     "current-title": "- Presente"
   },
   "works": {
@@ -33,6 +33,18 @@
     "servientrega": {
       "title": "Servientrega International",
       "copy": "Rediseñar la UX y mejorar la Arquitectura de Información fueron los objetivos al hacer este proyecto."
+    }
+  },
+  "collaborations": {
+    "title": "Colaboraciones",
+    "description": "Grandes proyectos en los que he tenido la fortuna de contribuir",
+    "quick": {
+      "title": "Quick",
+      "copy": "Potenciar una plataforma para hacer logística moderna basada en tecnología en tiempo real"
+    },
+    "addi": {
+      "title": "Addi Shop",
+      "copy": "La primera aplicación de BuyNow PayLater de LATAM, un gran avance para potenciar el comercio electrónico"
     }
   },
   "skills": {
@@ -64,5 +76,13 @@
   "servientrega": {
     "copy": "Create the CMS for this logistic company",
     "description": "Rediseñar la Experiencia de Usuario y mejorar la Arquitectura de Información fueron los objetivos principales para mejorar la web de Servientrega International. Usamos React.js como librería de interfaz y Graph.ql como el gestor para la comunicación con el backend."
+  },
+  "quick": {
+    "copy": "Grupo de desarrollos tecnológicos",
+    "description": "Desarrollo de distintos productos que buscan facilitar los procesos logísticos como soluciones de última milla, carga o distribución urbana. Desarrollos hechos en React.js y Redux en la UI, con PHP y Python para el backend."
+  },
+  "addi": {
+    "copy": "La primera aplicación de BuyNow PayLater en Latam",
+    "description": "El App facilita el comercio digital ofreciendo nuevas alternativas de pago, hecha en React.js, Firebase y Java para el backend fue un reto interesante en mi carrera."
   }
 }

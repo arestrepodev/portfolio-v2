@@ -24,8 +24,8 @@
     "current-title": "to Present"
   },
   "works": {
-    "title": "Works",
-    "description": "A litle compilation of some importants, challenging, personals and professionals works, which I've made in my career.",
+    "title": "Projects",
+    "description": "A litle compilation of some importants, challenging, personals and professionals projects, which I've made in my career.",
     "petgram": {
       "title": "Petgram | Petlife",
       "copy": "The favorite social media of our pets. Made with React.js and GraphQL"
@@ -33,6 +33,18 @@
     "servientrega": {
       "title": "Servientrega International",
       "copy": "Redesign the UX and improve the Architecture Information were the principal objetives behind this project"
+    }
+  },
+  "collaborations": {
+    "title": "Collabs",
+    "description": "Important projects in which I have participated",
+    "quick": {
+      "title": "Quick",
+      "copy": "Create the logistic disruption was the objetive behind of this group of technologies"
+    },
+    "addi": {
+      "title": "Addi Shop",
+      "copy": "The first startup BuyNow PayLater of Latam, the application is building the best digital shopping experience"
     }
   },
   "skills": {
@@ -64,5 +76,13 @@
   "servientrega": {
     "copy": "Logistic company CMS",
     "description": "Redesign the UX and improve the Architecture Information were the principal objetives behind this project. We used WordPres as CMS, React.js as UI library for create the custome theme and Graph.ql for the backend communication"
+  },
+  "quick": {
+    "copy": "Logistic company technologies group",
+    "description": "Make part of development a serie of products that have the objetive of make easy the way for get a logistic service as last mile, carga or global service, developments made in React.js, PHP and Python"
+  },
+  "addi": {
+    "copy": "Buy Now Pay Later solutions in Latam",
+    "description": "The app make easy the digital e-commerce for all people that find a practical solution to do your shopping, the App was made in React.js, Firebase and Java in the backend."
   }
 }
