@@ -13,7 +13,7 @@ import addi from '../public/images/works/addi-thumbnail.png'
 const Works = () => {
   const { t } = useTranslation()
   return (
-    <Layout>
+    <Layout title="Works">
       <Container maxW="container.xl">
         <Heading as="h3" fontSize={20} mb={3} mt={6}>
           {t('works.title')}
