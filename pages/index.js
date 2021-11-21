@@ -13,8 +13,16 @@ import {
   Button,
   SimpleGrid,
   UnorderedList,
-  ListItem
+  List,
+  ListItem,
+  Icon
 } from '@chakra-ui/react'
+import {
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoLinkedin,
+  IoLogoTwitter
+} from 'react-icons/io5'
 import Paragraph from '../components/paragraph'
 import { Section } from '../components/section'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -139,6 +147,67 @@ const Page = () => {
               </UnorderedList>
             </Box>
           </SimpleGrid>
+        </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Social Networks
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/ArnoldRestrepo" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  textDecoration="none"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @ArnoldRestrepo
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.linkedin.com/in/restrepoarnold/"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  textDecoration="none"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  @restrepoarnold
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.instagram.com/arnoldrestrepomusic/"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  textDecoration="none"
+                  leftIcon={<Icon as={IoLogoInstagram} />}
+                >
+                  @arnoldrestrepomusic
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/arnoldrmusic" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  textDecoration="none"
+                  leftIcon={<Icon as={IoLogoTwitter} />}
+                >
+                  @arnoldrmusic
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>
