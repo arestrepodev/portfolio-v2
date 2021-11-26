@@ -73,6 +73,7 @@ const Page = () => {
               display="inline-block"
               borderRadius="full"
               src="/images/profile-arnold-restrepo.jpeg"
+              alt="Arnold Restrepo Profile Image"
             />
           </Box>
         </Box>
