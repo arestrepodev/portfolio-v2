@@ -3,22 +3,22 @@
   "name": "Arnold Restrepo Hernandez - Frontend Developer",
   "icons": [
     {
-      "src": "img/logo-arnold.ico",
+      "src": "images/logo-arnold.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "img/logo-arnold-64x64.png",
+      "src": "images/logo-arnold-64x64.png",
       "type": "image/png",
       "sizes": "64x64"
     },
     {
-      "src": "img/logo-arnold-192x192.png",
+      "src": "images/logo-arnold-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "img/logo-arnold-512x512.png",
+      "src": "images/logo-arnold-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
