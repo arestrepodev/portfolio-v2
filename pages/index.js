@@ -72,6 +72,8 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
+              width={100}
+              height={100}
               src="/images/profile-arnold-restrepo.jpeg"
               alt="Arnold Restrepo Profile Image"
             />
