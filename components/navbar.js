@@ -76,9 +76,9 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             {t('navbar.works')}
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          {/* <LinkItem href="/posts" path={path}>
             Posts
-          </LinkItem>
+          </LinkItem> */}
           <NextLink href="/" locale={router.locale === 'es' ? 'en' : 'es'}>
             <Button colorScheme="teal" size="xs">
               {router.locale === 'es' ? 'EN' : 'ES'}
@@ -102,9 +102,9 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>{t('navbar.works')}</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                {/* <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>{t('navbar.posts')}</MenuItem>
-                </NextLink>
+                </NextLink> */}
                 <NextLink
                   href="/"
                   locale={router.locale === 'es' ? 'en' : 'es'}

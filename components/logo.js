@@ -12,17 +12,20 @@ const LogoBox = styled.span`
   line-height: 20px;
   padding: 10px;
   &:hover img {
-    transform: rotate(20deg);
+    transform: rotate(-20deg);
   }
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+  const footPrintImg = `/images/logo-arnold${useColorModeValue(
+    '-light',
+    '-dark'
+  )}.png`
   return (
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={footPrintImg} width={20} height={20} alt="Logo" />
+          <Image src={footPrintImg} width={30} height={30} alt="Logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily="M PLUS Rounded 1c"

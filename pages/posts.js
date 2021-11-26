@@ -5,7 +5,7 @@ import Layout from '../components/layouts/article'
 import { Section } from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
+import thumbFishWorkflow from '../public/images/works/petgram-detail.jpeg'
 
 const Pages = () => {
   const { t } = useTranslation()
