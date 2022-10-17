@@ -74,7 +74,7 @@ const Page = () => {
               borderRadius="full"
               width={100}
               height={100}
-              src="/images/profile-arnold-restrepo.jpeg"
+              src="/images/profile-photo-2022.jpeg"
               alt="Arnold Restrepo Profile Image"
             />
           </Box>
@@ -157,20 +157,20 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/ArnoldRestrepo" target="_blank">
+              <Link href="https://github.com/arestrepodev" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
                   textDecoration="none"
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
-                  @ArnoldRestrepo
+                  @arestrepodev
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
               <Link
-                href="https://www.linkedin.com/in/restrepoarnold/"
+                href="https://www.linkedin.com/in/arestrepodev/"
                 target="_blank"
               >
                 <Button
@@ -179,13 +179,13 @@ const Page = () => {
                   textDecoration="none"
                   leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
-                  @restrepoarnold
+                  @arestrepodev
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
               <Link
-                href="https://www.instagram.com/arnoldrestrepomusic/"
+                href="https://www.instagram.com/arestrepodev/"
                 target="_blank"
               >
                 <Button
@@ -194,19 +194,19 @@ const Page = () => {
                   textDecoration="none"
                   leftIcon={<Icon as={IoLogoInstagram} />}
                 >
-                  @arnoldrestrepomusic
+                  @arestrepodev
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://twitter.com/arnoldrmusic" target="_blank">
+              <Link href="https://twitter.com/arestrepodev" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
                   textDecoration="none"
                   leftIcon={<Icon as={IoLogoTwitter} />}
                 >
-                  @arnoldrmusic
+                  @arestrepodev
                 </Button>
               </Link>
             </ListItem>
