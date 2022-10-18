@@ -2,7 +2,7 @@
   "common": {
     "intro": "Hola, soy un software frontend engineer colombiano",
     "about-title": "Acerca de Mi",
-    "bio-title": "Trayectoría",
+    "bio-title": "Trayectoria",
     "portfolio-button": "Mis proyectos"
   },
   "navbar": {
@@ -11,16 +11,16 @@
     "posts": "Posts"
   },
   "about-me": {
-    "intro": "Soy Frontend Developer y Productor Multimedia. Tengo 4 años de experiencia en las diversas etapas del desarrollo web y en tecnologías como: HTML, CSS3, JavaScript, ECMAScript, React.js y Accesibilidad Web.",
-    "passionate": "Me apasiona la tecnología y el poder que tiene sobre las personas, por ello creo en el aprendizaje continuo como filosofía, la creación de experiencias únicas para el usuario y en la transformación del mundo por medio de la creación de tecnología.",
-    "current-job": "Actualmente trabajo en ADDI usando diferentes tecnologías como: React.js, Next.js, React Native y Redux."
+    "intro": "Soy Frontend Developer y Productor Multimedia. Cuento con más de 5 años de experiencia en las diversas etapas del desarrollo web: planificación, prototipado, diseño de interfaces y desarrollo frontend en tecnologías cómo: HTML, CSS, JavaScript, React, Vue.js, recientemente Astro y Svelte. He trabajado en diferentes industrias como: logística, Marketing Agencies o fin-tech startups.",
+    "passionate": "Asimismo, amo el ecosistema tech y el poder que tiene sobre las personas, por eso creo en el aprendizaje continuo como filosofía, la creación de experiencias únicas para el usuario y la transformación del mundo a través de la tecnología.",
+    "current-job": "Actualmente creo diferentes aplicaciones web en React.js y Next.js. Estoy abierto a ofertas como desarrollador frontend con el objetivo de que LATAM sea reconocida por productos tecnológicos increíbles."
   },
   "bio": {
-    "born": "Soy de Bogotá, Colombia",
+    "born": "Nací en Bogotá, Colombia",
     "career": "Me gradué como Tecnólogo en Producción Multimedia",
-    "ondigital-job": "Mi primer trabajo fue en Ondigital, Agencia de Marketing Digital",
-    "quick-job": "Trabaje en Quick, empresa de logística como Frontend Developer",
-    "addi-job": "Actualmente trabajo en Addi, fintech (BuyNow PayLater), como Software Frontend Engineer",
+    "ondigital-job": "Mi primer trabajo fue en Ondigital, Agencia de Marketing",
+    "quick-job": "Trabajé en Quick, empresa de logística como Frontend Developer",
+    "addi-job": "Actualmente trabajo en Addi, fintech (BuyNow PayLater), como Software Frontend Engineer, solucionando problemas relacionados con Identity Verification y Fraud ",
     "current-title": "- Presente"
   },
   "works": {

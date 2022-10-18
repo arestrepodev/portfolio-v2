@@ -56,7 +56,7 @@ const Page = () => {
               Arnold Restrepo Hernandez
             </Heading>
             <Text as="p" fontSize="sm">
-              Frontend Developer / Musician
+              Frontend Developer / UI Fanatic
             </Text>
           </Box>
           <Box
@@ -74,7 +74,7 @@ const Page = () => {
               borderRadius="full"
               width={100}
               height={100}
-              src="/images/profile-photo-2022.jpeg"
+              src="/images/profile-photo-2022.webp"
               alt="Arnold Restrepo Profile Image"
             />
           </Box>
